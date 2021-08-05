@@ -1,0 +1,448 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #E8F0F2;  
+  max-height: 100vh;
+  max-width: auto;
+}
+
+img, svg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.jumbotron {
+  padding: 3rem 1.5rem;
+  margin:0px auto;
+  margin-bottom: 10px;
+  color: #fff;
+  background: linear-gradient(-45deg, #88d3ce, #6e45e2, #23a6d5, #23d5ab );
+  background-size: 400% 400%;
+ -webkit-animation: gradientBG 8s ease infinite;
+  animation: gradientBG 8s ease infinite;
+  box-shadow: 5px 10px 18px #888888;
+
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+ }
+ @keyframes gradientBG {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+ }
+
+.jumboText {
+  font-size: 1.35rem;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: floralwhite;
+}
+
+
+.navbar-dark {
+  background-color: #053742;
+}
+
+.Link {
+  color:#053742;;
+  text-decoration: none;
+}
+
+.Link:hover {
+  color:#288aa0;
+  text-decoration: none;
+}
+
+.footer {
+  /*position: fixed;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #A2DBFA;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+  color:#053742;
+  margin-top: 4rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-family: 'Montserrat SemiBold';
+  background-color: rgb(5, 55, 66);
+  border: 2px solid rgba(8, 179, 218, 0.5);
+  border-radius: 5px;
+  color: floralwhite;
+  margin: 3rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.serviceAllItems {
+  padding: 0.4rem;
+  margin: 3rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+  margin-top: 5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(162, 219, 250,0.4);
+  border: 2px solid rgba(6, 98, 119,0.5);
+  border-radius: 16px;
+  box-shadow: 5px 10px 18px #888888;
+  margin-top: 0.2rem;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+
+}
+
+.serviceItem {
+  text-align: center;
+  max-width: auto;
+  min-height: 250px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.serviceItem:hover {
+  background-color: rgba(79, 125, 136, 0.4);
+  border-radius: 12px;
+  color: floralwhite;
+}
+
+.serviceIcon svg {
+  size: 15px;
+}
+
+.serviceTitle{
+  font-size: 2rem;
+  font-family: 'Montserrat SemiBold';
+  font-weight: 550;
+  color: #022931;
+}
+
+.serviceDesc {
+  margin: 0 auto;
+  max-width: 500px;
+  font-size: 1.3rem;
+  color: #053742;
+}
+
+.contactDiv {
+  padding: 0.4rem;
+  margin: 3rem;
+  background-color: rgba(162, 219, 250,0.4);
+  border: 2px solid rgba(6, 98, 119,0.5);
+  border-radius: 16px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.contentSection
+  {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+#contactTitle
+  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+    background: linear-gradient(rgba(4, 40, 48,1),rgba(5, 55, 66,1),rgba(10, 92, 110, 0.7),rgba(33, 214, 255, 0.5));
+    width: max-content;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    box-shadow:2px 5px rgba(36, 36, 36, 0.4) ;
+  } 
+ 
+.contact-label
+  {
+    font-family: 'Montserrat SemiBold';
+    font-size: 1.5rem;
+    color: #022931;
+    font-weight: 400;
+    float: left;
+    padding-top: 7px;
+
+  }  
+
+  .contact-form
+  {
+    width: 100%; 
+    border: 2px solid rgba(6, 98, 119,0.5);
+    border-radius: 4px; 
+    background-color: rgba(78, 129, 156, 0.2);
+    color: white;
+    font-size: 1.1em;
+  }
+
+
+.contact-form:focus-within
+  {
+    width: 100%;
+    border-radius: 4px; 
+    background-color: floralwhite;
+    color: black;
+    font-size: 1.1em;
+    font-family: sans-serif;
+  }  
+
+#sendBtn
+  {
+    float: left;
+    padding: 5px 7px;
+    margin: 10px 3px;
+    width: 10rem;
+    height: 3rem;
+    background: rgba(5, 55, 66,1);
+    font-weight: 350;
+  }
+
+#sendBtn:hover {
+  padding: 5px 7px;
+    margin: 10px 3px;
+    height: 3rem;
+    width: 10rem;
+    background: linear-gradient(rgba(4, 40, 48,1),rgba(5, 55, 66,1),rgba(16, 128, 153, 0.7));
+    font-weight: 350;
+    border: 2px solid rgba(8, 179, 218, 0.7);
+}
+
+.aboutDiv, .projectsDiv {
+  padding: 0.4rem;
+  margin: 3rem;
+  background-color: rgba(162, 219, 250,0.4);
+  border: 2px solid rgba(6, 98, 119,0.5);
+  border-radius: 16px;
+  box-shadow: 5px 10px 18px #888888;
+  max-width:80%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+
+.aboutFieldDiv {
+  margin-top: 0;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  padding: 1.5rem;
+}
+
+.aboutTitle{
+  font-size: 2rem;
+  font-family: 'Montserrat SemiBold';
+  background-color: rgb(5, 55, 66);
+  border: 2px solid rgba(8, 179, 218, 0.5);
+  border-radius: 5px;
+  color: floralwhite;
+  margin: auto;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-weight: 700;
+  width: 80%;
+}
+
+.aboutText {
+  text-align: left;
+  margin: 0 1.2rem 1rem 2.5rem;
+}
+
+.aboutDesc {
+  text-align: left;
+  margin: 0 1.2rem 1rem 2.5rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  clear: left;
+}
+
+.aboutLabel {
+  font-weight: normal;
+}
+
+.aboutImg {
+  width:20%;
+  float:right;
+  margin:2rem 3rem 2rem 1rem;
+}
+
+.resumeBtn {
+  margin: 0.5rem;
+  margin-left: 2.5rem;
+  padding: 5px 7px;
+  height: 3rem;
+  background: rgba(5, 55, 66,1);
+  font-weight: 370;
+  color: floralwhite;
+}
+
+.resumeBtn:hover {
+  margin: 0.5rem;
+  margin-left: 2.5rem;
+  padding: 5px 7px;
+  height: 3rem;
+  background: linear-gradient(rgb(4, 40, 48),rgba(5, 55, 66,1),rgba(10, 92, 110, 0.7));
+  font-weight: 370;
+  color: floralwhite;
+}
+
+.skillTag {
+  background-color: rgba(5, 55, 66,0.9);
+  color: floralwhite;
+  border-radius:6px;
+  padding:0.2rem 0.4rem 0.2rem 0.4rem;
+  margin: 0.2rem;
+}
+
+
+.accordionDiv {
+  background-color: rgba(255,255,255, 0.00);
+  border: none;
+}
+
+.accordionHeading {
+  padding: 0.4rem;
+  margin: 3rem;
+  background-color: rgba(162, 219, 250,0.6);
+  border: 2px solid rgba(6, 98, 119,0.5);
+  border-radius: 16px;
+  box-shadow: 5px 10px 18px #888888;
+  max-width:80%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+
+.projectBtn {
+  background: rgba(5, 55, 66,1);
+  font-weight: 400;
+  color: floralwhite;
+}
+
+.projectBtn:hover {
+  background: linear-gradient(rgb(4, 40, 48),rgba(5, 55, 66,1),rgba(10, 92, 110, 0.7));
+  font-weight: 400;
+  color: floralwhite;
+}
+
+.projectsDesc {
+  font-size: 1.2rem;
+  color: #022931;
+}
+
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+
+
+/* Media  screen styling  */ 
+@media only screen and (max-width: 414px) {
+
+  .contentSection{
+    width:92%;
+  }
+
+  .sectionTitle {
+    font-size: 2.1rem;
+    padding: auto; 
+  }
+
+  .aboutDiv, .projectsDiv{
+   max-width:92%;
+ }
+
+ .aboutTitle {
+   width: 92%;
+ }
+
+ .aboutLabel {
+   font-size: 1.2rem;
+ }
+
+ .aboutText {
+   margin-right: 0rem;
+   clear: left;
+ }
+
+ .aboutImg {
+   width: 45%;
+   clear:left;
+   margin-left: auto;
+   margin-bottom: 0.2rem;
+   margin-right: 0.3rem;
+   float: right;
+ }
+
+
+ .skillTag {
+   font-size: 1rem;
+   margin: auto;
+   padding: auto;
+ }
+
+ .serviceAllItems, .sectionTitle {
+   margin: 1rem;
+ }
+
+
+}

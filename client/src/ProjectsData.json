@@ -1,0 +1,37 @@
+[
+  {
+    "title": "MERN Expense Tracker",
+    "description":
+      "An easy-to-use expense tracker to track your income and expenses where user can list their income or expenses and track their total balance, amount left, amount spent and their transaction details",
+    "link": "https://expensetracker4u.herokuapp.com/",
+    "note":""
+  },
+
+  {
+    "title": "ReactJs and React Native Restaurant Website / Mobile App",
+    "description": "A ReactJS restaurant website and mobile application with various sections as Menu, About Us, a Contact Us form page and a table reservation page and various preloading animations and gestures for UX enhancement. ",
+    "link": "https://youtu.be/77_xN1fMXY4",
+    "note":"( NOTE: I haven't deployed the website yet, but you can checkout the demo video. )"
+  },
+
+  {
+    "title": "An E-diary with login and OAuth.",
+    "description": "A simple E-diary to keep your secrets and thoughts secured with login and OAuth authentication built with NodeJS, MongoDB, OAuth &amp; Passport.js.",
+    "link": "https://secrets-e-diary.herokuapp.com/",
+    "note":""
+  },
+
+  {
+    "title": "Online Face Recognition Attendance System (BE Group Project)",
+    "description": "An application which automates the attendance marking system by monitoring and verifying student's face throughout the lecture. The application has a login system for students and teachers with necessary features.",
+    "link": "https://youtu.be/q6mAoh_Ybn0",
+    "note":"( NOTE: I haven't deployed the website yet, but you can checkout the demo video. )"
+  },
+
+  {
+    "title": "Weathergram",
+    "description": "A web application which initially detects the user's location and displays the current weather details. The user can check the details of any other location too. The theme of the application changes with the weather type.",
+    "link": "https://weathergram.netlify.app/",
+    "note":""
+  }
+]
