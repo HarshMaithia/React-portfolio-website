@@ -15,9 +15,9 @@
   },
 
   {
-    "title": "An E-diary with login and OAuth.",
-    "description": "A simple E-diary to keep your secrets and thoughts secured with login and OAuth authentication built with NodeJS, MongoDB, OAuth &amp; Passport.js.",
-    "link": "https://secrets-e-diary.herokuapp.com/",
+    "title": "Secrets App with login and OAuth",
+    "description": "A simple Secrets app where you can share your secrets anonymously and also view secrets added by other users. This project mainly focuses on Authentication and Security. It features register and login functionality with hashing ans salting through PassportJs and also has OAuth. It is built with NodeJs, Express, MongoDB, PassportJs. ",
+    "link": "https://secrets-app-oauth.herokuapp.com/",
     "note":""
   },
 
